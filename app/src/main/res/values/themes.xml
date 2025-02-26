@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculatrice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        
+    </style>
+
+    <style name="Theme.Calculatrice" parent="Base.Theme.Calculatrice" />
+    <style name="Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">40dp</item>
+    </style>
+    <style name="btnOperation">
+        <item name="background">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/btn</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="btnscientifique">
+        <item name="android:textColor">@color/yellows</item>
+        <item name="background">@color/btn</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

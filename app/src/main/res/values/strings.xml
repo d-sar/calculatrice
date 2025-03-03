@@ -16,7 +16,7 @@
     <string name="sin">sin</string>
     <string name="pi">pi</string>
     <string name="tan">tan</string>
-    <string name="racine">v</string>
+    <string name="racine">√</string>
     <string name="vAbsolut">|x|</string>
     <string name="equal">=</string>
     <string name="module">%</string>

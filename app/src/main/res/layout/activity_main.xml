@@ -92,6 +92,7 @@
                 android:background="@color/rose"
                 android:layout_marginBottom="20dp"
                 style="@style/Button"
+                android:onClick="onClear"
                 android:text="@string/clear" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -101,6 +102,7 @@
                 android:gravity="center"
                 android:layout_marginBottom="20dp"
                 style="@style/Button"
+                android:onClick="onDigit"
                 android:text="@string/_7" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -110,6 +112,7 @@
                 android:gravity="center"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_4" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -119,6 +122,7 @@
                 android:gravity="center"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_1" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -128,6 +132,7 @@
                 android:gravity="center"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_0" />
 
         </LinearLayout>
@@ -147,6 +152,7 @@
                 style="@style/btnOperation"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
+                android:onClick="onBackspace"
                 android:text="@string/back" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -155,6 +161,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_8" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -163,6 +170,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 style="@style/Button"
+                android:onClick="onDigit"
                 android:text="@string/_5" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -171,6 +179,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_2" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -179,6 +188,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_00" />
 
         </LinearLayout>
@@ -205,6 +215,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 style="@style/Button"
+                android:onClick="onDigit"
                 android:text="@string/_9" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -213,6 +224,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_6" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -221,6 +233,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDigit"
                 android:text="@string/_3" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -229,6 +242,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Button"
                 android:layout_marginBottom="20dp"
+                android:onClick="onDecimalPoint"
                 android:text="@string/dot" />
 
         </LinearLayout>
@@ -247,6 +261,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="@color/black"
+                android:onClick="onOperator"
                 android:text="@string/divide" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -257,6 +272,7 @@
                 android:background="@color/black"
                 style="@style/btnOperation"
                 android:layout_marginBottom="20dp"
+                android:onClick="onOperator"
                 android:text="@string/multiple" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -266,6 +282,7 @@
                 android:background="@color/black"
                 style="@style/btnOperation"
                 android:layout_marginBottom="20dp"
+                android:onClick="onOperator"
                 android:text="@string/soustraction" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -275,6 +292,7 @@
                 android:background="@color/black"
                 style="@style/btnOperation"
                 android:layout_marginBottom="20dp"
+                android:onClick="onOperator"
                 android:text="@string/add" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -285,6 +303,7 @@
                 android:layout_marginBottom="20dp"
                 android:background="@color/green"
                 android:textColor="@color/white"
+                android:onClick="onEqual"
                 android:text="@string/equal" />
 
         </LinearLayout>
